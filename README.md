@@ -1,2 +1,95 @@
-# BA-2000
-Pentaho Business Analytics - Report Designer
+---
+# This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
+# You can change it to the regular `page` layout if you want.
+layout: page
+
+# The title of the page.
+title: Adv Data Integration - DI 1500
+
+# Enable Disqus comments
+comments: true
+
+# Write a short (~150 characters) description of each blog post.
+# This description is used to preview the page on search engines, social media, etc.
+description: >
+  This course is designed to build upon your fundamental knowledge of Pentaho Data Integration (PDI).   
+  Moving beyond the basics of creating transformations and jobs, you will learn how to use PDI in real-world project scenarios.
+  You'll add PDI as a data source for a variety of visualization options, utilize PDI's streaming data processing capabilties, build transformations with metadata injection, and scale and performance tune your PDI solution.
+
+# You can show the description on the page by deleting this line:
+hide_description: false
+
+# Setting `menu` will generate an entry in the sidebar.
+menu: true
+---
+
+## Prerequisites
+
+The following software need to be installed and configured:
+```
+
+Pentaho Business Analytics 8.x
+Java JDK 9.0.x
+Docker for Windows
+Git / GitHub
+Atom / Visual Studio Code
+R
+RStudio
+Jenkins
+
+```
+
+### Course Overview
+
+On completing this course, you will be able to:
+
+[Module 1 - Metadata Injection](DI1500.1.md)
+```
+  Overview of Metadata Injection
+  * Metadata Injection Workflows
+    - Standard
+    - Push / Pull
+    - 2-phase
+    - Filters
+  * Metadata Injection Scenarios
+    - Retail Sales
+```
+[Module 2 - PDI as a Data Source](DI1500.2.md)
+```
+  Configure PDI as a datasource for various scenarios:
+  * Pentaho Reports step
+  * CDA
+  * Machine Learning
+  * Data Services
+```  
+
+[Module 3 - Streaming Data](DI1500.3.md)
+```
+  Implement a MQTT Broker
+  * Stream GPS co-ordinates to PDI to demonstrate IoT
+  Implement Kafka
+  * Twitter Stream - you will need a twitter account
+```
+
+[Module 4 - Scalability](DI1500.4.md)
+```
+  Configuring Master & Slave nodes
+  * Clustering
+  * Partitioning
+  Scheduling
+  Checkpoints
+```
+
+### Getting Started
+
+[Course Materials](/scripts/course_materials.cmd) - Batch script for GitHub repositories *Requires Git to be installed.
+
+[Software](https://www.dropbox.com/sh/6nl31ts10sjimnr/AADFXjTek4f9ANyBivVVAhqFa?dl=0) - Shared File on DropBox
+
+
+#### Acknowledgments
+```
+Beppe Raymaekers
+Morgan Senechal
+Caio Moreno de Souza
+```
