@@ -1,95 +1,58 @@
----
-# This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
-# You can change it to the regular `page` layout if you want.
-layout: page
+# Business Analytics Report Designer - BA 2000
+  Business Analytics Report Designer teaches you how to design, create and publish custom reports with Report Designer. From connecting to data sources to adding design elements, you will learn all of the necessary steps to produce visually appealing reports for your organization.
 
-# The title of the page.
-title: Adv Data Integration - DI 1500
-
-# Enable Disqus comments
-comments: true
-
-# Write a short (~150 characters) description of each blog post.
-# This description is used to preview the page on search engines, social media, etc.
-description: >
-  This course is designed to build upon your fundamental knowledge of Pentaho Data Integration (PDI).   
-  Moving beyond the basics of creating transformations and jobs, you will learn how to use PDI in real-world project scenarios.
-  You'll add PDI as a data source for a variety of visualization options, utilize PDI's streaming data processing capabilties, build transformations with metadata injection, and scale and performance tune your PDI solution.
-
-# You can show the description on the page by deleting this line:
-hide_description: false
-
-# Setting `menu` will generate an entry in the sidebar.
-menu: true
----
-
-## Prerequisites
-
-The following software need to be installed and configured:
-```
-
-Pentaho Business Analytics 8.x
-Java JDK 9.0.x
-Docker for Windows
-Git / GitHub
-Atom / Visual Studio Code
-R
-RStudio
-Jenkins
-
-```
 
 ### Course Overview
 
 On completing this course, you will be able to:
 
-[Module 1 - Metadata Injection](DI1500.1.md)
+#### Module 1 - Introducing Pentaho Report Designer
 ```
-  Overview of Metadata Injection
-  * Metadata Injection Workflows
-    - Standard
-    - Push / Pull
-    - 2-phase
-    - Filters
-  * Metadata Injection Scenarios
-    - Retail Sales
+  Overview of Pentaho Report Designer
+  * Business Analytics
 ```
-[Module 2 - PDI as a Data Source](DI1500.2.md)
+
+#### Module 2 - Navigating Report Designer
 ```
-  Configure PDI as a datasource for various scenarios:
-  * Pentaho Reports step
-  * CDA
-  * Machine Learning
-  * Data Services
+  Overview of User Interface
+  * Data Pane
+  * Structure Pane
+  * Style & Attributes Panes
+  * Elements Palette
 ```  
 
-[Module 3 - Streaming Data](DI1500.3.md)
+#### Module 3 - Data Sources & Queries
 ```
-  Implement a MQTT Broker
-  * Stream GPS co-ordinates to PDI to demonstrate IoT
-  Implement Kafka
-  * Twitter Stream - you will need a twitter account
-```
-
-[Module 4 - Scalability](DI1500.4.md)
-```
-  Configuring Master & Slave nodes
-  * Clustering
-  * Partitioning
-  Scheduling
-  Checkpoints
+  Define data sources
+  * JDBC
+  * Metadata
+  * Pentaho Data Integration
+  * OLAP
+  * XML
+  * Table
+  * Community Data Access
 ```
 
-### Getting Started
+#### Module 4 - Report Elements & Groups
+```
+  Create Pentaho Dashboards
+  * Templates
+  * Content from Repository
+  * Prompts
+  * Content Linking
+```
 
-[Course Materials](/scripts/course_materials.cmd) - Batch script for GitHub repositories *Requires Git to be installed.
+#### Module 5 - Calculations
+```
+  Create Pentaho Dashboards
+  * Templates
+  * Content from Repository
+  * Prompts
+  * Content Linking
+```
+
+#### Getting Started
+
+[Course Materials](/scripts/course_materials.cmd) - Batch script which downloads GitHub repositories
 
 [Software](https://www.dropbox.com/sh/6nl31ts10sjimnr/AADFXjTek4f9ANyBivVVAhqFa?dl=0) - Shared File on DropBox
-
-
-#### Acknowledgments
-```
-Beppe Raymaekers
-Morgan Senechal
-Caio Moreno de Souza
-```
